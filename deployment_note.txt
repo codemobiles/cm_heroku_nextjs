@@ -16,8 +16,10 @@
 "heroku-postbuild": "npm run build"
 
 
-#Heroku cli
+#4. Heroku cli
+-----------------------------------
 sudo yarn global add heroku
 
-#Check log
+#5. Check log
+-----------------------------------
 heroku logs --tail --app heroku-cm-demo
