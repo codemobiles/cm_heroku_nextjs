@@ -14,3 +14,10 @@
 #3. Change add this to the script
 -----------------------------------
 "heroku-postbuild": "npm run build"
+
+
+#Heroku cli
+sudo yarn global add heroku
+
+#Check log
+heroku logs --tail --app heroku-cm-demo
